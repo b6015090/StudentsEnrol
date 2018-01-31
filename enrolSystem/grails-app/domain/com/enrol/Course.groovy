@@ -21,7 +21,7 @@ String studyMode
 	numberOfStudents blank:false, nullable:false, minSize:20, maxSize:60
 	startDate blank:false, nullable:false
 	endDate blank:false, nullable:false
-	studyMode blank:false, nullable:false, minSize:20
+	studyMode blank:false, nullable:false
 	description blank:false, nullable:false, maxSize:5000
 	tuitionFees blank:false, nullable:false, scale:2
     }
