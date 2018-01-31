@@ -44,6 +44,39 @@ class BootStrap {
 	tuitionFees: 9000.60,
 	description: 'This is a decription for the course'
 	).save()
+
+	def Emma= new Student(
+		name: 'Emma Smith',
+		studentID:'CS605090',
+		dob:new Date('01/03/1998'),
+		isFundingAvailable: true,
+		email: 'b6015090@my.shu.ac.uk',
+		username: 'b6015090',
+		password: 'password',
+		course: 'Computing'
+	).save()
+
+	def Jade= new Student(
+		name: 'Jade Smith',
+		studentID:'CS605091',
+		dob:new Date('19/04/1998'),
+		isFundingAvailable: true,
+		email: 'b6015091@my.shu.ac.uk',
+		username: 'b6015091',
+		password: 'password',
+		course: 'Maths'
+	).save()
+
+	def Alisha= new Student(
+		name: 'Alisha Smith',
+		studentID:'CS605092',
+		dob:new Date('18/11/1996'),
+		isFundingAvailable: true,
+		email: 'b6015092@my.shu.ac.uk',
+		username: 'b6015092',
+		password: 'password',
+		course: 'Music Technology'
+	).save()
     }
     def destroy = {
     }
