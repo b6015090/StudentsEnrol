@@ -77,6 +77,15 @@ class BootStrap {
 		password: 'password',
 		course: 'Music Technology'
 	).save()
+
+	def Jackie=new Lecturer(
+		fullName: 'Jackie Stallard',
+		post: 'Lecturer',
+		subject: 'WADI',
+		lecturerEmail:'JStallard@my.shu.ac.uk',
+		office: 'Cantor421',
+		bio: 'Indent your code'
+	).save()
     }
     def destroy = {
     }
